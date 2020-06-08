@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             val discountText = discountEditText.text.toString()
 
             if (discountText.isEmpty()) {
-                // 定価が未入力
+                // 割引率が未入力
                 discountEditText.error = getString(R.string.discount_error)
                 isValid = false
             }
